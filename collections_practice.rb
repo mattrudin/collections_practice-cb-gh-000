@@ -31,5 +31,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect {|element| element != "feet" && element + "s"}
+  array.collect {|element| element == "feet" ? "feet" : element + "s"}
 end
