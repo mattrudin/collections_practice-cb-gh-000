@@ -19,7 +19,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.collect {|element| "#{element[0,2]}$#{element[3]}"}
+  array.collect {|element| "#{element[0,2]}$#{element[3,5]}"}
 end
 
 def find_a(array)
